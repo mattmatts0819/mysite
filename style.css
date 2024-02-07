@@ -1,0 +1,89 @@
+body {
+  background-color: #ccc;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  float: left;
+  width: 25%;
+}
+
+nav {
+  /* margin: 5em 3em 0 0;
+  width: 70%; */
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+/* nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+}
+nav li {
+  display: inline-block;
+  font-size: 1.75em;
+}
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+} */
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: #ccc;
+}
+
+.logo {
+  cursor: default;
+}
+
+main {
+  clear: left;
+}
+h1 {
+  text-align: center;
+}
+
+footer {
+  clear: left;
+  background-color: #ccc;
+  padding: 2%;
+  font-size: 1.25em;
+}
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
+}
+
+.snakebite-photo {
+  display: grid;
+  place-items: center;
+}
+
+.sub-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
